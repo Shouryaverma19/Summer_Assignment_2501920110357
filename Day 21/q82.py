@@ -1,0 +1,7 @@
+s = input("Enter a string: ")
+
+reversed_str = ""
+for char in s:
+    reversed_str = char + reversed_str
+
+print("Reversed string:", reversed_str)
